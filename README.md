@@ -1,5 +1,7 @@
 # Advent of Code 2023
 
+[![Sorbet](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/typecheck.yml/badge.svg)](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/typecheck.yml)
+
 This is my attempt at the [Advent of Code 2023](https://adventofcode.com/2023) challenge.
 In each `dayXX` folder there is:
 
