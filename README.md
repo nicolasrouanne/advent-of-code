@@ -15,3 +15,7 @@ To run the solution for a given day, just run the `main.rb` file in the correspo
 $ cd day1
 $ ruby main.rb
 ```
+
+## TypeChecking
+
+[`Sorbet`](https://sorbet.org/) is used for typechecking. To run the typechecker, run `srb tc` in the root folder.
