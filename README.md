@@ -1,5 +1,7 @@
 # Advent of Code 2023
 
+[![Sorbet](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/typecheck.yml/badge.svg)](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/typecheck.yml)
+
 This is my attempt at the [Advent of Code 2023](https://adventofcode.com/2023) challenge.
 In each `dayXX` folder there is:
 
@@ -15,3 +17,7 @@ To run the solution for a given day, just run the `main.rb` file in the correspo
 $ cd day1
 $ ruby main.rb
 ```
+
+## TypeChecking
+
+[`Sorbet`](https://sorbet.org/) is used for typechecking. To run the typechecker, run `srb tc` in the root folder.
