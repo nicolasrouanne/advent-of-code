@@ -4,9 +4,7 @@ games = File.open('./input.txt').each_with_object({}) do |line, acc|
   key = /^Game\s([0-9]+):/.match(line)[1]
   rest = /^Game\s[0-9]+:(.*)/.match(line)[1]
   picks = rest.split(';').map do |pick|
-    pick.split(',').map do |dice|
-      dice.split(' ')
-    end
+    pick.split(',').map(&:split)
   end
   acc[key] = picks
   acc
