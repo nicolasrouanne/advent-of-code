@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 matrix = File.open('./input.txt').map do |line|
-  line.chomp.split('').map { |char| char == '.' ? '' : char }
+  line.chomp.chars.map { |char| char == '.' ? '' : char }
 end
 
 # coordinates of matches for a position and a regex
@@ -54,8 +54,8 @@ parts = []
   end
 end
 
-real_parts = parts.map(&:to_i)
-p real_parts.sum
+parts.map(&:to_i)
+# p real_parts.sum
 
 ### Level 2 ###
 gear_parts = []
@@ -87,6 +87,7 @@ gear_parts.each_with_index do |gear_part, i|
     (gears["#{gear[0]},#{gear[1]}"] ||= []) << gear_parts[i][:match].to_i
   end
 end
+p gears
 
 filtered_gears = {}
 gears.each_key do |key|

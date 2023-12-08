@@ -1,6 +1,6 @@
 # Advent of Code 2023
 
-[![Sorbet](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/typecheck.yml/badge.svg)](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/typecheck.yml)
+[![Rubocop](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/lint.yml/badge.svg)](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/lint.yml) [![Sorbet](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/typecheck.yml/badge.svg)](https://github.com/nicolasrouanne/advent-of-code/actions/workflows/typecheck.yml)
 
 This is my attempt at the [Advent of Code 2023](https://adventofcode.com/2023) challenge.
 In each `dayXX` folder there is:
@@ -21,3 +21,7 @@ $ ruby main.rb
 ## TypeChecking
 
 [`Sorbet`](https://sorbet.org/) is used for typechecking. To run the typechecker, run `srb tc` in the root folder.
+
+## Linting
+
+[`Rubocop`](https://rubocop.org/) is used for linting. To run the linter, run `rubocop` in the root folder.
