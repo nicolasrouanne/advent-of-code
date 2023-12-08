@@ -21,3 +21,7 @@ $ ruby main.rb
 ## TypeChecking
 
 [`Sorbet`](https://sorbet.org/) is used for typechecking. To run the typechecker, run `srb tc` in the root folder.
+
+## Linting
+
+[`Rubocop`](https://rubocop.org/) is used for linting. To run the linter, run `rubocop` in the root folder.
